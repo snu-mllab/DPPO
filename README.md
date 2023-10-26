@@ -40,3 +40,7 @@ python train.py --env_name [ENV_NAME] --seed [SEED] --transformer.smooth_w [NU] 
     year={2023}
 }
 ```
+
+# Credit
+
+Our code is based on [PreferenceTransformer](https://github.com/csmile-1006/PreferenceTransformer), which was also based on [FlaxModels](https://github.com/matthias-wright/flaxmodels) and [IQL](https://github.com/ikostrikov/implicit_q_learning).
