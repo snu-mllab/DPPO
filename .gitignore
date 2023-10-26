@@ -161,12 +161,5 @@ cython_debug/
 
 # output folder & files
 wandb/
-*.pkl
-*.sh
-*.out
-*.ipynb
 logs**
-*.png
-*.pdf
-*.csv
 
