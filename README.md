@@ -1,6 +1,6 @@
 # Direct Preference-based Policy Optimization without Reward Modeling (NeurIPS 2023)
 
-Official implementation of *Direct Preference-based Policy Optimization without Reward Modeling*, NeurIPS 2023.
+Official implementation of [Direct Preference-based Policy Optimization without Reward Modeling](https://arxiv.org/abs/2301.12842), NeurIPS 2023.
 
 ## Installation 
 
