@@ -4,7 +4,7 @@ Official implementation of *Direct Preference-based Policy Optimization without 
 
 ## Installation 
 
-Note: Our code was tested on Linux OS with CUDA 12. If your system specification is different (e.g., CUDA 11), you may need some modification on the `requirements.txt` file and the installation commands.
+Note: Our code was tested on Linux OS with CUDA 12. If your system specification differs (e.g., CUDA 11), you may need to modify the `requirements.txt` file and the installation commands.
 
 Follow the steps below:
 ```
