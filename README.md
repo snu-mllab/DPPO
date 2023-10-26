@@ -2,7 +2,7 @@
 
 Official implementation of [Direct Preference-based Policy Optimization without Reward Modeling](https://arxiv.org/abs/2301.12842), NeurIPS 2023.
 
-## Installation 
+# Installation 
 
 Note: Our code was tested on Linux OS with CUDA 12. If your system specification differs (e.g., CUDA 11), you may need to modify the `requirements.txt` file and the installation commands.
 
@@ -15,15 +15,15 @@ conda install -c "nvidia/label/cuda-12.3.0" cuda-nvcc
 pip install -r requirements.txt -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
 ```
 
-## How to run DPPO
+# How to run DPPO
 
-### Train preference model
+## Train preference model
 
 ```
 python -m JaxPref.new_preference_reward_main --env_name [ENV_NAME] --seed [SEED] --transformer.smooth_w [NU] --smooth_sigma [M] 
 ```
 
-### Train agent
+## Train agent
 
 ```
 python train.py --env_name [ENV_NAME] --seed [SEED] --transformer.smooth_w [NU] --smooth_sigma [M] --dropout [DROPOUT] --lambd [LAMBDA]
