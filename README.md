@@ -2,6 +2,11 @@
 
 Official implementation of [Direct Preference-based Policy Optimization without Reward Modeling](https://arxiv.org/abs/2301.12842), NeurIPS 2023.
 
+
+<p align="center">
+ <img src="figures/overview.png" width=500>
+</p>
+
 # Installation 
 
 Note: Our code was tested on Linux OS with CUDA 12. If your system specification differs (e.g., CUDA 11), you may need to modify the `requirements.txt` file and the installation commands.
