@@ -11,7 +11,7 @@ Official implementation of [Direct Preference-based Policy Optimization without 
 
 Note: Our code was tested on Linux OS with CUDA 12. If your system specification differs (e.g., CUDA 11), you may need to modify the `requirements.txt` file and the installation commands.
 
-Follow the steps below:
+To install the required packages using Conda, follow the steps below:
 ```
 conda create -n dppo python=3.8
 conda activate dppo
