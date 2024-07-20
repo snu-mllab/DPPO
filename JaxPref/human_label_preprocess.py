@@ -330,7 +330,6 @@ def main(_):
         cuts = np.where(ds['terminals'] == 1)[0]
         starts = np.concatenate([[0], cuts[:-1] + 1])
         ends = cuts
-        print(starts[:10], ends[:10])
         lens = ends - starts
         traj_num = len(starts)
         human_indices, human_indices_2 = [], []
