@@ -4,10 +4,8 @@ Based on the collected indices for queries in this folder, you could also genera
 ## Generating Videos
 First, you have to generate videos for queries by running codes below.
 ```python
-python -m JaxPref.human_label_preprocess_mujoco --env_name {Mujoco env name} --query_path ./human_label  --save_dir {video folder to save} --num_query {number of query} --query_len {query length}
-
-python -m JaxPref.human_label_preprocess_kitchen --env_name {Kitchen env name} --query_path ./human_label  --save_dir {video folder to save} --num_query {number of query} --query_len {query length}
+python -m JaxPref.human_label_preprocess --env_name {Mujoco env name} --query_path ./human_label  --save_dir {video folder to save} --num_query {number of query} --query_len {query length}
 ```
 
 ## Labeling Human Preferences
-After generating videos, You could use `label_program.ipynb` for collecting human preferences.
+After generating videos, code your label and dump it as a pickle with `save_label.py` file.
